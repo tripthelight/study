@@ -1,3 +1,6 @@
+* {
+  list-style-type: none;
+}
 .movie {
   display: flex;
   align-items: center;
@@ -12,4 +15,12 @@
 .movie .movie-year {
   flex-grow: 0.5rem;
   color: red;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+}
+.nav li {
+  padding: 0 10px;
 }
