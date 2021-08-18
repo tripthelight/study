@@ -1,5 +1,6 @@
 * {
   list-style-type: none;
+  text-decoration: none;
 }
 .movie {
   display: flex;
@@ -23,4 +24,11 @@
 }
 .nav li {
   padding: 0 10px;
+}
+.nav li a {
+  color: #777;
+}
+.nav li a.active {
+  color: #000;
+  font-weight: bold;
 }
